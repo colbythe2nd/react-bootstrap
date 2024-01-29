@@ -1,20 +1,22 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 const Navigation = () =>
-  <Navbar bg="light" expand="lg">
-    <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
+  <Navbar>
+    {/* "Link" in brand component since just redirect is needed */}
+    <Navbar.Brand as={NavLink} to="/">My Portfolio</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
+        <Nav.Link as={NavLink} to="/" exact>Home</Nav.Link>
         <NavDropdown title="Games" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#games/1">Item 1</NavDropdown.Item>
-          <NavDropdown.Item href="#games/2">Item 2</NavDropdown.Item>
+          <NavDropdown.Item as={NavLink} to="/item1">Item 1</NavDropdown.Item>
+          <NavDropdown.Item as={NavLink} to="/item2">Item 2</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="About Me" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#about/1">Item 1</NavDropdown.Item>
-          <NavDropdown.Item href="#about/2">Item 2</NavDropdown.Item>
+          <NavDropdown.Item as={NavLink} to="/item3">Item 1</NavDropdown.Item>
+          <NavDropdown.Item as={NavLink} to="/item5">Item 2</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>
