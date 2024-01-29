@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 import { useNavigate } from 'react-router-dom';
 
 function Home() {
-  const title = 'React Bootstrap Template';
+  const title = `React Bootstrap Template`;
 
   const navigate = useNavigate();
 
@@ -20,14 +20,14 @@ function Home() {
             </p>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
               <button type="button"
-                      className="btn btn-outline-secondary btn-lg px-4"
-                      onClick={() => navigate('/signup')}
+                className="btn btn-outline-secondary btn-lg px-4"
+                onClick={() => navigate(`/signup`)}
               >
                 Sign up
               </button>
               <button type="button"
-                      className="btn btn-primary btn-lg px-4 gap-3"
-                      onClick={() => navigate('/login')}
+                className="btn btn-primary btn-lg px-4 gap-3"
+                onClick={() => navigate(`/login`)}
               >
                 Log in
               </button>

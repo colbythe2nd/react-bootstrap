@@ -1,20 +1,19 @@
-// CREDIT: modified from https://github.com/fgerschau/react-custom-form-validation-example/blob/master/src/useForm.ts
-
 import { useState } from 'react';
 
 function useForm(options) {
-  const [data, setData] = useState(options?.initialValues || {});
-  const [errors, setErrors] = useState({});
+  const [ data, setData ] = useState(options?.initialValues || {});
+  const [ errors, setErrors ] = useState({});
 
   const handleChange = (fieldname, transformer) => (e) => {
     // A transformer transform the text form value to another value.
-    const value = (transformer) ? transformer(e.target.value) : e.target.value;
+    const value = transformer ? transformer(e.target.value) : e.target.value;
     setData({
       ...data,
       [fieldname]: value,
     });
   };
 
+  // eslint-disable-next-line require-await
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -61,9 +60,9 @@ function useForm(options) {
 
   return {
     data,
+    errors,
     handleChange,
     handleSubmit,
-    errors,
   };
 }
 

@@ -1,13 +1,13 @@
 // CREDIT: Based on react-jdenticon - https://github.com/jmcudd/react-jdenticon/blob/master/src/index.js
 
-import React, { useRef, useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import jdenticon from 'jdenticon/standalone';
 
-function Jdenticon({ name, width = '32px', height = '32px' }) {
+function Jdenticon({ height = `32px`, name, width = `32px` }) {
   const icon = useRef(null);
   useEffect(() => {
     jdenticon.update(icon.current, name);
-  }, [name]);
+  }, [ name ]);
 
   return (
     <>

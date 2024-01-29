@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "christian-kohler.path-intellisense",
+      "gruntfuggly.todo-tree",
+      "formulahendry.auto-rename-tag",
+      "mgmcdermott.vscode-language-babel",
+      "visualstudioexptteam.vscodeintellicode",
+      "streetsidesoftware.code-spell-checker",
+      "mgmcdermott.vscode-language-babel",
+      "aaron-bond.better-comments",
+      "chakrounanas.turbo-console-log",
+      "johnpapa.vscode-peacock",
+      "yzhang.markdown-all-in-one",
+      "rangav.vscode-thunder-client",
+      "maptz.regionfolder"
+    ]
+  }

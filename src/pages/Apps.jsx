@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 
 function Apps() {
-  const title = 'Applications';
+  const title = `Applications`;
 
   return (
     <>
@@ -10,7 +10,16 @@ function Apps() {
       </Helmet>
       <div className="container-fluid">
         <div
-          className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          className="
+          d-flex
+          justify-content-between
+          flex-wrap flex-md-nowrap
+          align-items-center
+          pt-3
+          pb-2
+          mb-3
+          border-bottom
+          ">
           <h1 className="h2">{title}</h1>
         </div>
       </div>

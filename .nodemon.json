@@ -1,0 +1,11 @@
+{
+  "watch": [
+    "src/routes",
+    "src/utils",
+    "src/libs",
+    "config",
+    "index.js"
+  ],
+  "ext": ".ts,.js,.json",
+  "ignore": []
+}
