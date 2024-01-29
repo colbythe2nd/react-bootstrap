@@ -1,5 +1,19 @@
 import React from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import ImageSlides from '../components/ImageSlides';
+
+const carouselData = [
+  {
+    description: `Nulla vitae elit libero, a pharetra augue mollis interdum.`,
+    image: `images/screenshot.jpg`,
+    title: `First slide label`,
+  },
+  {
+    description: `Nulla vitae elit libero, a pharetra augue mollis interdum.`,
+    image: `images/murat.gif`,
+    title: `Second slide label`,
+  },
+];
 
 const Item1Page = () =>
   <Container>
@@ -34,6 +48,13 @@ const Item1Page = () =>
           </Card.Body>
         </Card>
       </Col>
+    </Row>
+    <Row>
+      <Col sm={3} />
+      <Col sm={6}>
+        <ImageSlides data={carouselData} />
+      </Col>
+      <Col sm={3} />
     </Row>
   </Container>;
 
