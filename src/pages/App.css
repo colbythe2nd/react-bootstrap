@@ -4,7 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: #FFFFFF; /* Optional: Change the text color if needed */
+  color: #FFFFFF;
 }
 
 .header-image-row::before {
@@ -22,3 +22,8 @@
   position: relative;
   z-index: 2; /* This ensures that all child elements are above the overlay */
 }
+
+/* .navbar {
+  background-color: #0a1128;
+  color: #FFFFFF;
+} */

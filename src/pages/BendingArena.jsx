@@ -103,7 +103,7 @@ const BendingArena = () =>
       <Row className="justify-content-center">
         <Col md={5} className="text-center">
           <p>
-            Coded with visual programming on Diamondfire <br />
+            Coded with visual programming in Minecraft<br />
             Playable by joining <b>mcdiamondfire.com</b> and typing <b>/join 27500</b>
           </p>
         </Col>
