@@ -25,11 +25,10 @@ const BendingArena = () =>
         </Col>
       </Row>
     </div>
-    <Container className="d-grid gap-5">
-      <div />
+    <Container className="d-grid gap-4 pt-3">
       <Row className="justify-content-center">
         <Col md={9}>
-          <h3>Overview</h3>
+          <h4>Overview</h4>
           <p class="text-left">
             Bending arena is a fast paced 1v1 FPS fighting game built within minecraft.
             It takes the popular show Avatar: The Last Airbender and lets players fight it
@@ -40,7 +39,7 @@ const BendingArena = () =>
         </Col>
       </Row>
       <Row className="justify-content-center">
-        <Col md={9}>
+        <Col md={7}>
           <Ratio aspectRatio={`16x9`}>
             <iframe
               src="https://www.youtube.com/embed/zi2G8dxSkik?si=4Ww_FaMiPfBlzs3R"
@@ -51,11 +50,34 @@ const BendingArena = () =>
       </Row>
       <Row className="justify-content-center">
         <Col md={9}>
-          <h3>Roles</h3>
+          <h4>Notable Features</h4>
+          <ul>
+            <li>
+              Four selectable elements (Earth, Air, Fire, Water),
+              each with five abilities & alternates (40 abilities in total)
+            </li>
+            <li>
+              Six playable maps themed from various locations from Avatar: The Last Airbender
+            </li>
+            <li>
+              Cosmetics menu with unlockable banners
+            </li>
+            <li>
+              Public & Private invite matchmaking systems
+            </li>
+            <li>
+              In-depth spectating features and dynamic menus
+            </li>
+          </ul>
+        </Col>
+      </Row>
+      <Row className="justify-content-center">
+        <Col md={9}>
+          <h4>Roles & Achievements</h4>
           <ul>
             <li>
               Developed the idea for the game, its mechanics, arena specifications,
-              and most of the abilities for each class/element
+              and coded most abilties & matchmaking functionality
             </li>
             <li>
               Led a small team with varying degrees of contribution to either the code or the buildings/assets
@@ -72,10 +94,18 @@ const BendingArena = () =>
         </Col>
       </Row>
       <Row className="justify-content-center">
-        <Col md={9}>
+        <Col md={7}>
           <Ratio aspectRatio={`16x9`}>
             <ImageSlides data={carouselData} />
           </Ratio>
+        </Col>
+      </Row>
+      <Row className="justify-content-center">
+        <Col md={5} className="text-center">
+          <p>
+            Coded with visual programming on Diamondfire <br />
+            Playable by joining <b>mcdiamondfire.com</b> and typing <b>/join 27500</b>
+          </p>
         </Col>
       </Row>
     </Container>
