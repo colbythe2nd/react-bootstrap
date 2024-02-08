@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="my-4 text-center text-muted small">
+    <footer className="py-4 text-center small footer">
       Copyright © Colby Nolasco 2024.
     </footer>
   );

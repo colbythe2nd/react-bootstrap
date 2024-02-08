@@ -1,10 +1,11 @@
 .header-image-row {
   position: relative;
-  background-image: url('/public/images/bending2.png'); /* Update with your image path */
+  background-image: url('/public/images/bending2.jpg'); /* Update with your image path */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: #FFFFFF;
+  width: 100%;
 }
 
 .header-image-row::before {
@@ -23,7 +24,27 @@
   z-index: 2; /* This ensures that all child elements are above the overlay */
 }
 
-/* .navbar {
-  background-color: #0a1128;
-  color: #FFFFFF;
-} */
+.navbar {
+  background-color: #181818;
+}
+
+.footer {
+  background-color: #181818;
+  color: #DDDDDD;
+}
+
+.background {
+  background-color: #1F1F1F;
+}
+
+h4 {
+  color: #39ace7;
+}
+
+p, ul, li {
+  color: #DDDDDD;
+}
+
+.nav-link:hover, .nav-dropdown:hover {
+  color: #ccc !important; /* Lighter grey on hover for better visibility */
+}

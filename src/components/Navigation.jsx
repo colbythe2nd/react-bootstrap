@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 const Navigation = () =>
-  <Navbar className="blue-navbar">
+  <Navbar variant="dark" className="navbar">
     {/* "Link" in brand component since just redirect is needed */}
     <Navbar.Brand as={NavLink} to="/">My Portfolio</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
