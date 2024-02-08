@@ -17,16 +17,16 @@ const carouselData = [
 
 const BendingArena = () =>
   <>
-    <div class="header-image-row">
-      <Row className="pt-5 pb-4 justify-content-center">
-        <Col className="text-center" md={9}>
-          <h1>Bending Arena</h1>
-          <p>1v1 FPS Fighting Game (Diamondfire, 2022)</p>
-        </Col>
-      </Row>
-    </div>
     <div className="background">
       <Container className="d-grid gap-4 pt-3">
+        <div class="header-image-row">
+          <Row className="pt-5 pb-4 justify-content-center">
+            <Col className="text-center" md={9}>
+              <h1>Bending Arena</h1>
+              <p>1v1 FPS Fighting Game (Diamondfire, 2022)</p>
+            </Col>
+          </Row>
+        </div>
         <Row className="justify-content-center">
           <Col md={9}>
             <h4>Overview</h4>
