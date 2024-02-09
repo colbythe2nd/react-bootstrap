@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Carousel, Image, Ratio } from 'react-bootstrap';
+import { Carousel, Col, Image, Ratio, Row } from 'react-bootstrap';
 
 function ImageSlides({ data }) {
   const [ index, setIndex ] = useState(0);
@@ -10,15 +10,22 @@ function ImageSlides({ data }) {
   };
 
   return <>
-    <Carousel className={`w-100 d-block`} activeIndex={index} onSelect={handleSelect}>
-      {data.map((slide, idx) =>
-        <Carousel.Item key={idx}>
-          <Ratio aspectRatio={`16x9`}>
-            <Image
-              src={slide.image} />
-          </Ratio>
-        </Carousel.Item>)}
-    </Carousel>
+    <Row className="justify-content-center">
+      <Col md={7}>
+        <Ratio aspectRatio={`16x9`}>
+          <Carousel className={`w-100 d-block`} activeIndex={index} onSelect={handleSelect}>
+            {data.map((imageUrl, idx) =>
+              <Carousel.Item key={idx}>
+                <Ratio aspectRatio={`16x9`}>
+                  <Image
+                    src={imageUrl}
+                  />
+                </Ratio>
+              </Carousel.Item>)}
+          </Carousel>
+        </Ratio>
+      </Col>
+    </Row>
   </>;
 }
 
