@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 
 function DFFooter({ plotId }) {
-  return (
+  return <>
     <Row className="justify-content-center">
       <Col md={5} className="text-center">
         <p>
@@ -11,7 +11,7 @@ function DFFooter({ plotId }) {
         </p>
       </Col>
     </Row>
-  );
+  </>;
 }
 
 export default DFFooter;

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 
-function ListText({ entries, title }) {
-  return (
+const ListText = ({ entries, title }) =>
+  <>
     <Row className="justify-content-center">
       <Col md={9}>
         <h4>{title}</h4>
@@ -12,7 +12,6 @@ function ListText({ entries, title }) {
         </ul>
       </Col>
     </Row>
-  );
-}
+  </>;
 
 export default ListText;

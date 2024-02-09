@@ -1,12 +1,14 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import './App.css'; // Make sure to import your CSS file
+import './App.css';
 import { DFFooter, ImageSlides, ListText, ParaText, Title, YouTubeEmbed } from '../components';
 
 const carouselData = [
   `images/bending1.jpg`,
   `images/bending2.jpg`,
   `images/bending3.jpg`,
+  `images/bending4.jpg`,
+  `images/bending5.jpg`,
 ];
 
 const notableFeatures = [
@@ -32,7 +34,7 @@ const BendingArena = () =>
     <div className="background">
       <Container className="d-grid gap-4 pt-3">
         <Title
-          image="images/bending2.jpg"
+          image="images/bending1.jpg"
           title="Bending Arena"
           subtitle="1v1 FPS Fighting Game (Diamondfire, 2022)"
         />
@@ -50,7 +52,7 @@ const BendingArena = () =>
         <ListText title="Notable Features" entries={notableFeatures} />
         <ListText title="Roles & Achievements" entries={rolesAndAchievements} />
         <ImageSlides data={carouselData} />
-        <DFFooter plotId="27500" />
+        <DFFooter plotId="43122" />
       </Container>
     </div>
   </>;

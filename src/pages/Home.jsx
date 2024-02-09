@@ -1,40 +1,32 @@
-import { Helmet } from 'react-helmet';
-import { useNavigate } from 'react-router-dom';
+
+import { Col, Container, Row } from 'react-bootstrap';
+import { ParaText, YouTubeEmbed } from '../components';
 
 function Home() {
-  const title = `React Bootstrap Template`;
-
-  const navigate = useNavigate();
-
   return (
     <>
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
-      <main className="container-fluid">
-        <div className="px-4 py-5 my-5 text-center">
-          <h1 className="display-5 fw-bold">{title}</h1>
-          <div className="col-lg-6 mx-auto">
-            <p className="lead mb-4">
-              A simple, clean starter web app project with React and Bootstrap 5.
-            </p>
-            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button type="button"
-                className="btn btn-outline-secondary btn-lg px-4"
-                onClick={() => navigate(`/signup`)}
-              >
-                Sign up
-              </button>
-              <button type="button"
-                className="btn btn-primary btn-lg px-4 gap-3"
-                onClick={() => navigate(`/login`)}
-              >
-                Log in
-              </button>
-            </div>
+      <div className="background">
+        <Container className="d-grid gap-4 pt-3">
+          <div className="header-image-row" >
+            <Row className="pt-5 pb-4 justify-content-center">
+              <Col className="text-center" md={9}>
+                <h1>aaa</h1>
+                <p>Yes</p>
+              </Col>
+            </Row>
           </div>
-        </div>
-      </main>
+          <ParaText
+            title="Overview"
+            content="
+          Labyrinth 3 is the third iteration of a First Person procedurally generated dungeon crawler.
+          The game features a fully randomly generated maze complete with structures, and a large loot pool of items,
+          weapons, armor, and magic. Monsters that spawn in the maze may have modified AI, allowing
+          them to use abilities like lunging and using magic against the player.
+        "
+          />
+          <YouTubeEmbed videoId="zi2G8dxSkik" />
+        </Container>
+      </div>
     </>
   );
 }
