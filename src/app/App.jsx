@@ -8,10 +8,12 @@ import NotFound from '../pages/NotFound';
 import BendingArena from '../pages/BendingArena';
 import Labyrinth3 from '../pages/Labyrinth3';
 import FatesReloaded from '../pages/FatesReloaded';
+import ScrollToTop from '../hooks/ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route path="" element={<Home />} />
