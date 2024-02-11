@@ -4,6 +4,7 @@ import { CardComponent, ParaText } from '../components';
 import './App.css';
 
 function Home() {
+  // TODO: Work on putting all of this information in a JSON object to dynamically make pagess
 
   return (
     <>
