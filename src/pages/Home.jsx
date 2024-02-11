@@ -25,9 +25,8 @@ function Home() {
             professional experience in game development! On the multiplayer Minecraft server Diamondfire, I have
             successfully built several multiplayer focused minigames for a community of hundreds of players to enjoy.
             I currently have or are developing skills in Unity, Ableton Live, C#, and game design. Although I try
-            to learn all aspects of game development, I am mainly focused on Game Design and Gameplay Mechanic
-            aspects of development. Please feel free to take a look at a few of my projects that I
-            have developed below!
+            to learn all aspects of game development, I am mainly focused on Game Design and Gameplay Mechanics.
+            Please feel free to take a look at a few of my projects that I have developed below!
             "
           />
           <hr />
