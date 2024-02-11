@@ -21,7 +21,12 @@ function ImageSlides({ data }) {
     <Row className="justify-content-center">
       <Col md={7}>
         <Ratio aspectRatio={`16x9`}>
-          <Carousel className={`w-100 d-block`} activeIndex={index} onSelect={handleSelect} slide={!show}>
+          <Carousel
+            className={`w-100 d-block`}
+            activeIndex={index}
+            onSelect={handleSelect}
+            interval={show ? null : 5000}
+          >
             {data.map((imageUrl, idx) =>
               <Carousel.Item key={idx}>
                 <Ratio aspectRatio={`16x9`}>
