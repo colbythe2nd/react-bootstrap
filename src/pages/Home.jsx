@@ -35,7 +35,7 @@ function Home() {
             <Col md="6" xxl="4" align="center">
               <CardComponent
                 imageUrl="images/bending1.jpg"
-                link="/item1"
+                link="/bending"
                 title="Bending Arena"
                 description="
                 Bending arena is a fast paced 1v1 FPS fighting game built within minecraft.
@@ -47,7 +47,7 @@ function Home() {
             <Col md="6" xxl="4" align="center">
               <CardComponent
                 imageUrl="images/laby5.jpg"
-                link="/item1"
+                link="/labyrinth"
                 title="Labyrinth 3"
                 description="
             Labyrinth 3 is the third iteration of a First Person procedurally
@@ -59,7 +59,7 @@ function Home() {
             <Col md="6" xxl="4" align="center">
               <CardComponent
                 imageUrl="images/fates1.jpg"
-                link="/item1"
+                link="/fates"
                 title="Fates: BR"
                 description="
                 Fates: BR is a FPS battle royale that utilizes Minecraft's Resource pack functionality to add additional
