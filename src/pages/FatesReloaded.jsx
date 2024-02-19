@@ -13,18 +13,17 @@ const carouselData = [
 ];
 
 const notableFeatures = [
-  ``,
-  ``,
-  ``,
-  ``,
-  ``,
+  `50+ fully modeled and animated guns, along with sound effects`,
+  `Three 150x150 maps to play`,
+  `Unlockable starting gear/kits available in menu`,
+  `Variety of items and weapon upgrades scattered in arenas`,
 ];
 
 const rolesAndAchievements = [
-  ``,
-  ``,
-  ``,
-  ``,
+  `Worked with friend who modeled all guns, personally animated and implemented guns`,
+  `All code and arena functionality implemented by myself`,
+  `Most likely first implementation of resource pack animation, Very few/no other 
+  implementations of similar systems found online`,
 ];
 
 const FatesReloaded = () =>

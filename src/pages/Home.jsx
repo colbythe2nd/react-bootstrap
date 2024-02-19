@@ -22,10 +22,10 @@ function Home() {
           <ParaText
             title="Welcome to my portfolio!"
             content="
-            Game developer by hobby with 7 years of self taught game development experience, looking to gain
-            professional experience in game development! On the multiplayer Minecraft server Diamondfire, I have
+            Game developer by hobby with 7 years of self taught game development experience!
+            On the multiplayer Minecraft server Diamondfire, I have
             successfully built several multiplayer focused minigames for a community of hundreds of players to enjoy.
-            I currently have or are developing skills in Unity, Ableton Live, C#, and game design. Although I try
+            I currently have or am developing skills in Unity, Ableton Live, C#, and game design. Although I try
             to learn all aspects of game development, I am mainly focused on Game Design and Gameplay Mechanics.
             Please feel free to take a look at a few of my projects that I have developed below!
             "

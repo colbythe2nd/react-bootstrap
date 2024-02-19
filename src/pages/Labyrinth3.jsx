@@ -12,18 +12,18 @@ const carouselData = [
 ];
 
 const notableFeatures = [
-  ``,
-  ``,
-  ``,
-  ``,
-  ``,
+  `Fully randomized maze generation with several sets of tiles, generated structures, and chests/loot`,
+  `Randomized item & enchantment system, items and gear have varying custom stats & modifiers.
+   Magic items and spells can also be found on some weapons.`,
+  `Some enemies have custom AI/interactions with the player`,
+  `Boss mini-dungeons with multiple floors and heavily modified enemy AI`,
+  `Upgradable Tab-list minimap system`,
 ];
 
 const rolesAndAchievements = [
-  ``,
-  ``,
-  ``,
-  ``,
+  `Mostly solo project with additional help with building structures and item/enchant naming`,
+  `Third itteration of similar projects, with earlier entries recieving praise for its maze/randomized design`,
+  `First minimap system attempted on the server, at the time of creation`,
 ];
 
 const Labyrinth3 = () =>
