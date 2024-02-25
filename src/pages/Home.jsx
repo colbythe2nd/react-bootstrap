@@ -4,7 +4,7 @@ import { CardComponent, ParaText } from '../components';
 import './App.css';
 
 function Home() {
-  // TODO: Work on putting all of this information in a JSON object to dynamically make pagess
+  // TODO: Work on putting all of this information in a JSON object to dynamically make pages
 
   return (
     <>
@@ -14,7 +14,7 @@ function Home() {
             <Col className="text-center" md={9}>
               <h1 className="display-5 fw-bold">Colby Nolasco</h1>
               <p className="lead mb-4">
-                Game Designer
+                Game Developer
               </p>
             </Col>
           </Row>

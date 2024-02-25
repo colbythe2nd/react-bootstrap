@@ -48,7 +48,7 @@ const BendingArena = () =>
             to be displayed behind players during a fight to showcase their achievements
             "
         />
-        <YouTubeEmbed videoId="zi2G8dxSkik" />
+        <YouTubeEmbed videoId="zi2G8dxSkik" videoDesc="Gameplay demo featuring all four elements and gameplay flow" />
         <ListText title="Notable Features" entries={notableFeatures} />
         <ListText title="Roles & Achievements" entries={rolesAndAchievements} />
         <ImageSlides data={carouselData} />

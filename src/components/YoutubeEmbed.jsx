@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Ratio, Row } from 'react-bootstrap';
 
-const YouTubeEmbed = ({ videoId }) =>
+const YouTubeEmbed = ({ videoDesc, videoId }) =>
   <Row className="justify-content-center">
     <Col md={7}>
       <Ratio aspectRatio="16x9">
@@ -13,6 +13,8 @@ const YouTubeEmbed = ({ videoId }) =>
           allowFullScreen
         />
       </Ratio>
+      <br />
+      <p className="text-center"><i>{ videoDesc }</i></p>
     </Col>
   </Row>;
 export default YouTubeEmbed;

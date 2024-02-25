@@ -22,7 +22,7 @@ const notableFeatures = [
 const rolesAndAchievements = [
   `Worked with friend who modeled all guns, personally animated and implemented guns`,
   `All code and arena functionality implemented by myself`,
-  `Most likely first implementation of resource pack animation, Very few/no other 
+  `Most likely first implementation of resource pack animation, Very few/no other
   implementations of similar systems found online`,
 ];
 
@@ -43,7 +43,7 @@ const FatesReloaded = () =>
           each with their own custom animations for running, shooting, scoping, and reloading.
           "
         />
-        <YouTubeEmbed videoId="3x91AuUf7yo" />
+        <YouTubeEmbed videoId="3x91AuUf7yo" videoDesc="Early gun mechanic testing demo" />
         <ListText title="Notable Features" entries={notableFeatures} />
         <ListText title="Roles & Achievements" entries={rolesAndAchievements} />
         <ImageSlides data={carouselData} />
