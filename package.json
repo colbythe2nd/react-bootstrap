@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@types/react-pdf": "^7.0.0",
     "audit-ci": "^6.6.1",
     "eslint": "^8.56.0",
     "eslint-config-react-app": "^7.0.1",

@@ -2,6 +2,7 @@
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import { Document, Page, pdfjs } from 'react-pdf';
 import { useEffect } from 'react';
+import PDF from '../utils/ColbyNolasco_Resume2024.pdf';
 
 import './App.css';
 
@@ -43,7 +44,7 @@ function AboutMe() {
             <Col md={9}>
               <h4>Resume</h4>
               <Document
-                file={`ColbyNolasco_Resume2024.pdf`}
+                file={PDF}
               >
                 <Page pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false} scale={1.5}
                   height={document.getElementsByClassName(`PdfDiv`)[0]?.clientHeight * 0.8 ?? 150} />
