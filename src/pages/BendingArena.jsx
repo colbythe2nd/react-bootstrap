@@ -25,7 +25,7 @@ const rolesAndAchievements = [
   `Led a small team with varying degrees of contribution to either the code or the buildings/assets`,
   `Worked with the community to balance the game in order to create a fair and
    enjoyable fight regardless of the class & abilities picked`,
-  `During February 2021, Bending Arena became the Third most popular minigame on the server by player vote`,
+  `During February 2021, Bending Arena became the 3rd most popular minigame on the server by player vote`,
 ];
 
 const BendingArena = () =>
