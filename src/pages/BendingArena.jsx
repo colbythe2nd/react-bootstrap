@@ -25,8 +25,7 @@ const rolesAndAchievements = [
   `Led a small team with varying degrees of contribution to either the code or the buildings/assets`,
   `Worked with the community to balance the game in order to create a fair and
    enjoyable fight regardless of the class & abilities picked`,
-  `Garnered a decent following for the game, gaining a large amount of user support
-  within a 2 week timeframe (300+ players "voting" for the game)`,
+  `During February 2021, Bending Arena became the Third most popular minigame on the server by player vote`,
 ];
 
 const BendingArena = () =>
@@ -36,7 +35,7 @@ const BendingArena = () =>
         <Title
           image="images/bending1.jpg"
           title="Bending Arena"
-          subtitle="1v1 FPS Fighting Game (Diamondfire, 2022)"
+          subtitle="1v1 FPS Fighting Game (Diamondfire, 2021)"
         />
         <ParaText
           title="Overview"
