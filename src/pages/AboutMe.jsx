@@ -27,15 +27,18 @@ function AboutMe() {
             <Col md={6}>
               <h4>About Me</h4>
               <p className="text-left">
-                My name is Colby Nolasco, and I currently live in Cincinnati, OH attending
-                the University of Cincinnati, expecting to graduate in Spring of 2024 with my Bachelors
-                in Information technology (Tracking in Software Development and Game & Simulation).
-                Alongside that, I am also expected to graduate with my Masters in IT as well in 2024.
+                Hello! My name is Colby Nolasco, and I currently live in Cincinnati, OH and have just
+                recently graduated the University of Cincinnati in Spring 2024. Ive now got a Bachelors
+                in Information technology (Tracking in Software Development and Game & Simulation),
+                along with a Masters in IT.
                 I like to spend my freetime either playing games with my friends, or attempting to
                 make some of my own on my freetime. Currently I am busy trying to learn Unity and
                 exploring other options for creating games outside of Minecraft.
                 In the past year I have been finding myself trying to travel as much as possible,
-                along with trying out new foods and experiences!
+                along with trying out new foods and experiences! At the moment, I am currently seeking
+                a new job now that I am basically done with my current student worker position, and I am
+                open to anything exciting! In the meantime between jobs, I hope to learn a bit more about
+                game development and practice some of my website skills along the way!
               </p>
             </Col>
           </Row>
