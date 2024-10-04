@@ -10,7 +10,7 @@
   "eslint.workingDirectories": [
     "./packages/backend",
     "./packages/client",
-    "./packages/types"
+    "./"
   ],
   "eslint.validate": [
     "typescript",

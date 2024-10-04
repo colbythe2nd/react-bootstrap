@@ -34,6 +34,18 @@ function Home() {
           <Row className="justify-content-center">
             <Col md="6" xxl="4" align="center">
               <CardComponent
+                imageUrl="images/orions1.jpg"
+                link="/orions"
+                title="Orions Edge"
+                description="Orions Edge is a roguelike top-down shooter set in a space station inspired by games
+            like Enter the Gungeon and Furi. The player is able to explore a randomly generated space ship in
+            search of the map room to be able to take back control of the ship from the robots
+            running rampant throughout each room.
+            Orions Edge was fully developed using the Unity Engine, and built for ITExpo 2024 at
+            the University of Cincinnati." />
+            </Col>
+            <Col md="6" xxl="4" align="center">
+              <CardComponent
                 imageUrl="images/bending1.jpg"
                 link="/bending"
                 title="Bending Arena"

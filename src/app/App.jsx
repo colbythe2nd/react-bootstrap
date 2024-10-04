@@ -8,6 +8,7 @@ import NotFound from '../pages/NotFound';
 import BendingArena from '../pages/BendingArena';
 import Labyrinth3 from '../pages/Labyrinth3';
 import FatesReloaded from '../pages/FatesReloaded';
+import OrionsEdge from '../pages/OrionsEdge';
 import ScrollToTop from '../hooks/ScrollToTop';
 import AboutMe from '../pages/AboutMe';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/bending" element={<BendingArena />} />
           <Route path="/labyrinth" element={<Labyrinth3 />} />
           <Route path="/fates" element={<FatesReloaded />} />
+          <Route path="/orions" element={<OrionsEdge />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="not-found" element={<NotFound />} />
           <Route path="*" element={<Navigate to="/not-found" />} />
